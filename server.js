@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.json());
 
-// DB Congig
+// DB Config
 
 const db = require('./config/keys').mongoURI;
 
